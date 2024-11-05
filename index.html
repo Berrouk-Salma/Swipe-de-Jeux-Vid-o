@@ -1,48 +1,38 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <title>Card Game Interface</title>
 </head>
-<header>
-<nav>
-<marquee behavior="" direction="" class="bg-black text-white font-bold mt-20">
-    you can do anything but not everything
-</marquee>
-</nav>
-</header>
-
 <body>
     <div class="container">
-
+        <div id="card" class="card">
+            <img src="./img/Chilling ✨.jpg" alt="Image 1" class="card-image image1"
+                style="margin-top: 5px; border: 2px solid;">
+            <img src="./img/котики.jpg" alt="Image 2" class="card-image image2"
+                style="margin-top: 10px; border: 2px solid;">
+            <img src="./img/téléchargement (1).jpg" alt="Image 3" class="card-image image3"
+                style="margin-top: 15px;border: 2px solid;">
+            <img src="./img/😻.jpg" alt="Image 4" class="card-image image4"
+                style="margin-top: 20; border: 2px solid;">
+            <img src="./img/котики.jpg" alt="Image 5" class="card-image image5"
+                style="margin-top: 25px; border: 2px solid;">
+            <img src="./img/téléchargement (3).jpg" alt="Image 6" class="card-image image6"
+                style="margin-top: 30px;border: 2px solid;">
+        </div>
         <div class="buttons">
-            <button id="like">
-                <img src="./img/icons.png" alt="icone_dislike " width="40">
+            <button id="dislike">
+                <img src="./img/icons.png" alt="icone_dislike" width="60">
             </button>
-            <div id="card" class="card">
-                <img src="./img/Chilling ✨.jpg" alt="Image 1" class="card-image image1"
-                    style="margin-top: 5px; border: 2px solid;">
-                <img src="./img/котики.jpg" alt="Image 2" class="card-image image2"
-                    style="margin-top: 10px; border: 2px solid;">
-                <img src="./img/téléchargement (1).jpg" alt="Image 3" class="card-image image3"
-                    style="margin-top: 15px;border: 2px solid;">
-                <img src="./img/Chilling ✨.jpg" alt="Image 4" class="card-image image4"
-                    style="margin-top: 20; border: 2px solid;">
-                <img src="./img/котики.jpg" alt="Image 5" class="card-image image5"
-                    style="margin-top: 25px; border: 2px solid;">
-                <img src="./img/téléchargement (3).jpg" alt="Image 6" class="card-image image6"
-                    style="margin-top: 30px;border: 2px solid;">
-            </div>
             <button id="like">
-                <img src="./img/icons22.png" alt="icone_like " width="40">
+                <img src="./img/icons22.png" alt="icone_like" width="60" >
             </button>
         </div>
+
         <div id="summary" class="summary"></div>
     </div>
     <script src="main.js"></script>
 </body>
-
 </html>
